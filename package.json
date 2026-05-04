@@ -1,0 +1,29 @@
+{
+  "name": "gmfreddie",
+  "version": "0.1.0",
+  "description": "Freddie + gm-cc preloaded — bun x gmfreddie",
+  "type": "module",
+  "bin": {
+    "gmfreddie": "./bin/gmfreddie.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "dependencies": {
+    "freddie": "^0.0.58",
+    "gm-cc": "^2.0.727"
+  },
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnEntrypoint/gmfreddie.git"
+  },
+  "homepage": "https://github.com/AnEntrypoint/gmfreddie#readme"
+}
